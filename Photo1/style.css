@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.product {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+#wrapper {
+  display: grid;
+  width: 100vw;
+  row-gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+#wrapper > div:first-child {
+  margin: auto;
+}
+#systems-expert {
+  width: 50vw;
+  grid-row: 1/2;
+  background-color: brown;
+  height: 50px;
+}
+#ml-expert {
+  width: 30vw;
+  grid-row: 1/2;
+  height: 75px;
+  background-color: darkgoldenrod;
+}
+#algo-expert {
+  width: 75vw;
+  height: 50px;
+  grid-row: 2/3;
+  background-color: rgb(0, 145, 255);
+}
+#frontend-expert {
+  align-self: flex-end;
+  width: 40vw;
+  height: 50px;
+  grid-row: 3/4;
+  background-color: rgb(7, 202, 137);
+  margin-right: 10px;
+}
+#programming-expert {
+  align-self: flex-end;
+  height: 75px;
+  width: 100%;
+  grid-row: 3/4;
+  background-color: red;
+}
