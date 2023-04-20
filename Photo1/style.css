@@ -47,7 +47,7 @@
 }
 #programming-expert {
   height: 75px;
-  width: 58%;
+  width: calc(60% - 10px);
   order: 2;
   background-color: red;
 }
